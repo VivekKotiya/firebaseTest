@@ -11,9 +11,10 @@ import {
 } from 'react-native';
 import PhoneAuth from './src/auth/PhoneAuth';
 import EmailPwdAuth from './src/auth/EmailPwdAuth';
+import GmailAuth from './src/auth/GmailAuth';
 
 const App = () => {
-  const val = 2;
+  const val = 3;
   const getComponent = () => {
     let component = null;
     switch(val){
@@ -23,6 +24,9 @@ const App = () => {
       case 2:
         component = <EmailPwdAuth/>;
         break;
+      case 3:
+          component = <GmailAuth/>;
+          break;
     }
     return component;
   }
