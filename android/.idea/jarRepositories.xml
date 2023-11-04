@@ -36,5 +36,10 @@
       <option name="name" value="Google" />
       <option name="url" value="https://dl.google.com/dl/android/maven2/" />
     </remote-repository>
+    <remote-repository>
+      <option name="id" value="react-native-firebase_app -&gt; React Native sources" />
+      <option name="name" value="react-native-firebase_app -&gt; React Native sources" />
+      <option name="url" value="file:$PROJECT_DIR$/../node_modules/react-native/android/" />
+    </remote-repository>
   </component>
 </project>

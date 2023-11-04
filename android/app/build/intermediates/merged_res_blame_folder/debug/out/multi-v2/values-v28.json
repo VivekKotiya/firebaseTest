@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.firebasetest.app-mergeDebugResources-28:/values-v28/values-v28.xml",
+            "outputFile": "com.firebasetest.app-mergeDebugResources-32:/values-v28/values-v28.xml",
             "map": [
                 {
-                    "source": "/Users/kotdhanj/.gradle/caches/transforms-3/b14585e0ae3314e7a64bac79062dab1c/transformed/appcompat-1.4.1/res/values-v28/values-v28.xml",
+                    "source": "/Users/kotdhanj/.gradle/caches/transforms-3/470310c0cbc907667f18abe42ad14645/transformed/appcompat-1.4.1/res/values-v28/values-v28.xml",
                     "from": {
                         "startLines": "2,3,4,8",
                         "startColumns": "4,4,4,4",
