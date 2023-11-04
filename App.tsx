@@ -10,7 +10,7 @@ import {
   SafeAreaView,
 } from 'react-native';
 import PhoneAuth from './src/auth/PhoneAuth';
-import GmailAuth from './src/auth/PhoneAuth';
+import EmailPwdAuth from './src/auth/EmailPwdAuth';
 
 const App = () => {
   const val = 2;
@@ -21,7 +21,7 @@ const App = () => {
         component = <PhoneAuth/>;
         break;
       case 2:
-        component = <GmailAuth/>;
+        component = <EmailPwdAuth/>;
         break;
     }
     return component;
