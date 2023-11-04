@@ -5,32 +5,30 @@
  * @format
  */
 
-import React, { useEffect} from 'react';
+import React from 'react';
 import {
-  Alert,
   SafeAreaView,
-  Text,
-  View,
 } from 'react-native';
-import messaging from '@react-native-firebase/messaging';
+import PhoneAuth from './src/auth/PhoneAuth';
+import GmailAuth from './src/auth/PhoneAuth';
 
 const App = () => {
-  useEffect(() => {
-      getToken();
-  },[]);
-  const getToken = async() => {
-    const token = await messaging().getToken();
-    console.log(token);
+  const val = 2;
+  const getComponent = () => {
+    let component = null;
+    switch(val){
+      case 1:
+        component = <PhoneAuth/>;
+        break;
+      case 2:
+        component = <GmailAuth/>;
+        break;
+    }
+    return component;
   }
-  useEffect(() => {
-    const unsubscribe = messaging().onMessage(async remoteMessage => {
-      Alert.alert('A new FCM message arrived!', JSON.stringify(remoteMessage));
-    });
-    return unsubscribe;
-  }, []);
   return (
     <SafeAreaView>
-      <View><Text>hello App</Text></View>
+      {getComponent()}
     </SafeAreaView>
   );
 }

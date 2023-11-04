@@ -421,6 +421,10 @@ color bright_foreground_inverse_material_light
 color bright_foreground_material_dark
 color bright_foreground_material_light
 color brown
+color browser_actions_bg_grey
+color browser_actions_divider_color
+color browser_actions_text_color
+color browser_actions_title_color
 color burlywood
 color button_material_dark
 color button_material_light
@@ -692,6 +696,8 @@ dimen abc_text_size_subtitle_material_toolbar
 dimen abc_text_size_title_material
 dimen abc_text_size_title_material_toolbar
 dimen autofill_inline_suggestion_icon_size
+dimen browser_actions_context_menu_max_width
+dimen browser_actions_context_menu_min_padding
 dimen compat_button_inset_horizontal_material
 dimen compat_button_inset_vertical_material
 dimen compat_button_padding_horizontal_material
@@ -939,6 +945,11 @@ id autofill_inline_suggestion_title
 id beginning
 id blocking
 id bottom
+id browser_actions_header_text
+id browser_actions_menu_item_icon
+id browser_actions_menu_item_text
+id browser_actions_menu_items
+id browser_actions_menu_view
 id buttonPanel
 id catalyst_redbox_title
 id center
@@ -1126,6 +1137,8 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout autofill_inline_suggestion
+layout browser_actions_context_menu_page
+layout browser_actions_context_menu_row
 layout custom_dialog
 layout dev_loading_view
 layout fps_view
@@ -1224,7 +1237,11 @@ string common_google_play_services_wear_update_text
 string common_open_on_phone
 string common_signin_button_text
 string common_signin_button_text_long
+string copy_toast_msg
 string default_web_client_id
+string fallback_menu_item_copy_link
+string fallback_menu_item_open_in_browser
+string fallback_menu_item_share_link
 string fcm_fallback_notification_channel_label
 string gcm_defaultSenderId
 string google_api_key
@@ -1686,4 +1703,5 @@ styleable View android_theme android_focusable paddingEnd paddingStart theme
 styleable ViewBackgroundHelper android_background backgroundTint backgroundTintMode
 styleable ViewStubCompat android_id android_layout android_inflatedId
 xml ga_ad_services_config
+xml image_share_filepaths
 xml rn_dev_preferences
