@@ -11,12 +11,15 @@ import {
   Text,
   View,
 } from 'react-native';
+import LoginScreen from './lib/src/screen/LoginScreen';
+import SignupScreen from './lib/src/screen/SignupScreen';
 
 const App = () => {
   return (
-    <SafeAreaView>
-      <View><Text>Welcome to App</Text></View>
-    </SafeAreaView>
+    <View style={{flex:1}}>
+      {/* <LoginScreen/> */}
+      <SignupScreen/>
+    </View>
   );
 }
 
