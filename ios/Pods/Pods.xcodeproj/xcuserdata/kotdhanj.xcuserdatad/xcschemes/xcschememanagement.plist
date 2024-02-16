@@ -94,6 +94,24 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+<<<<<<< Updated upstream
+=======
+		<key>RNGestureHandler.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>RNReanimated.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>RNScreens.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+>>>>>>> Stashed changes
 		<key>React-Codegen.xcscheme</key>
 		<dict>
 			<key>isShown</key>
