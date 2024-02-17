@@ -3,12 +3,24 @@ to Use vector icon within the project below steps:
 yarn add react-native-vector-icons 
 
 for ios:
-step 1: copy the fonts folders from react-native-vector-icons node_module
+step 1: create file react-native.config.js along with package.js with below code
+        module.exports = {
+                dependencies: {
+                        "react-native-vector-icons": {
+                                platforms: {
+                                        ios: null,
+                                },
+                        },
+                },
+        };
+
+
+step 2: copy the fonts folders from react-native-vector-icons node_module
         open the xcode then copy the folder 
             - when popup open and ask then select "copy item if needed"
                 and click on create groupe else create issue for displaying EvilIcons
 
-step 2: info.plist add below code
+step 3: info.plist add below code
 
         <key>UIAppFonts</key>
         <array>
