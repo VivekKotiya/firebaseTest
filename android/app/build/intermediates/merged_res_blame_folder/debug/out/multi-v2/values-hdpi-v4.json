@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.firebasetest.app-mergeDebugResources-32:/values-hdpi-v4/values-hdpi-v4.xml",
+            "outputFile": "com.firebasetest.app-mergeDebugResources-41:/values-hdpi-v4/values-hdpi-v4.xml",
             "map": [
                 {
-                    "source": "/Users/kotdhanj/.gradle/caches/transforms-3/470310c0cbc907667f18abe42ad14645/transformed/appcompat-1.4.1/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "source": "/Users/kotdhanj/.gradle/caches/transforms-3/a2936e2d728a0090bff53c7b068805d0/transformed/appcompat-1.5.0/res/values-hdpi-v4/values-hdpi-v4.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
