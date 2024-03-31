@@ -1,51 +1,26 @@
 {
   "project_info": {
-    "project_number": "551576605868",
-    "project_id": "gloginios-9fdfa",
-    "storage_bucket": "gloginios-9fdfa.appspot.com"
+    "project_number": "1025392568321",
+    "project_id": "authflow-3792c",
+    "storage_bucket": "authflow-3792c.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:551576605868:android:1d998bf839482c87aebb09",
+        "mobilesdk_app_id": "1:1025392568321:android:2ebc53c252c25bfaa87800",
         "android_client_info": {
           "package_name": "com.firebasetest"
         }
       },
-      "oauth_client": [
-        {
-          "client_id": "551576605868-tg9u0r8436g9gq1ckcdhfjtr03g3ob1c.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.firebasetest",
-            "certificate_hash": "b3b987fc26cebde028cbe651fc2e43278ed22d52"
-          }
-        },
-        {
-          "client_id": "551576605868-r4uhpm9c72jgheo7cvggm7t3toj7no0t.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
+      "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyAyLHVxK7dRSt9ypEqwUgU8sJnGnaM9fZk"
+          "current_key": "AIzaSyA0oq14QzMmQ6h3uRLcIy73_xrUJp4MwPA"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "551576605868-66delnc2odreb0c21olg108oseqbo1ke.apps.googleusercontent.com",
-              "client_type": 3
-            },
-            {
-              "client_id": "551576605868-2f2j3ssf8d80ih2mnmb60bbdb3lqv0lb.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "org.reactjs.native.example.newproject"
-              }
-            }
-          ]
+          "other_platform_oauth_client": []
         }
       }
     }

@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="default_web_client_id" translatable="false">551576605868-r4uhpm9c72jgheo7cvggm7t3toj7no0t.apps.googleusercontent.com</string>
-    <string name="gcm_defaultSenderId" translatable="false">551576605868</string>
-    <string name="google_api_key" translatable="false">AIzaSyAyLHVxK7dRSt9ypEqwUgU8sJnGnaM9fZk</string>
-    <string name="google_app_id" translatable="false">1:551576605868:android:1d998bf839482c87aebb09</string>
-    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAyLHVxK7dRSt9ypEqwUgU8sJnGnaM9fZk</string>
-    <string name="google_storage_bucket" translatable="false">gloginios-9fdfa.appspot.com</string>
-    <string name="project_id" translatable="false">gloginios-9fdfa</string>
+    <string name="gcm_defaultSenderId" translatable="false">1025392568321</string>
+    <string name="google_api_key" translatable="false">AIzaSyA0oq14QzMmQ6h3uRLcIy73_xrUJp4MwPA</string>
+    <string name="google_app_id" translatable="false">1:1025392568321:android:2ebc53c252c25bfaa87800</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyA0oq14QzMmQ6h3uRLcIy73_xrUJp4MwPA</string>
+    <string name="google_storage_bucket" translatable="false">authflow-3792c.appspot.com</string>
+    <string name="project_id" translatable="false">authflow-3792c</string>
 </resources>
