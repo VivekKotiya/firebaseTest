@@ -4,14 +4,17 @@
 
 import 'react-native';
 import React from 'react';
+import { Text, View } from 'react-native';
 import App from '../App';
 
 // Note: import explicitly to use the types shiped with jest.
 import {it} from '@jest/globals';
-
-// Note: test renderer must be required after react-native.
-import renderer from 'react-test-renderer';
+import { shallow } from "enzyme";
 
 it('renders correctly', () => {
-  renderer.create(<App />);
+  //renderer.create(<App />);
+  const wrapper = shallow(<App/>);
+  expect(wrapper.find(Text).length).toBe(1);
+  expect(wrapper.find(View).length).toBe(1);
 });
+
