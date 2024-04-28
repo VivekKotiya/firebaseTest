@@ -13,8 +13,8 @@ import java.util.ArrayList;
 
 // @react-native-firebase/app
 import io.invertase.firebase.app.ReactNativeFirebaseAppPackage;
-// @react-native-firebase/messaging
-import io.invertase.firebase.messaging.ReactNativeFirebaseMessagingPackage;
+// @react-native-firebase/auth
+import io.invertase.firebase.auth.ReactNativeFirebaseAuthPackage;
 
 public class PackageList {
   private Application application;
@@ -61,7 +61,7 @@ public class PackageList {
     return new ArrayList<>(Arrays.<ReactPackage>asList(
       new MainReactPackage(mConfig),
       new ReactNativeFirebaseAppPackage(),
-      new ReactNativeFirebaseMessagingPackage()
+      new ReactNativeFirebaseAuthPackage()
     ));
   }
 }
