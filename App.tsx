@@ -5,17 +5,26 @@
  * @format
  */
 
-import React from 'react';
+import React, { useState } from 'react';
 import {
   SafeAreaView,
-  Text,
-  View,
 } from 'react-native';
+import ListView from './lib/src/component/listView';
+import withLoader from './lib/src/HOC/loader';
+import SimpleView from './lib/src/component/simpleView';
 
-const App = () => {
+const App = () => { 
+  const [isLoading, setIsLoading] = useState(true);
+  const NewList = withLoader(ListView, isLoading);
+  const SimpleViewWithLoader = withLoader(SimpleView, isLoading); 
+
+  setTimeout(() => {
+    setIsLoading(false);
+  }, 4000);
   return (
     <SafeAreaView>
-      <View><Text>Welcome to App</Text></View>
+      <NewList/>
+      {/* <SimpleViewWithLoader /> */}
     </SafeAreaView>
   );
 }
