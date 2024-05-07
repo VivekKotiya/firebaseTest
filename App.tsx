@@ -11,11 +11,16 @@ import {
   Text,
   View,
 } from 'react-native';
+import UserProvider from './lib/src/context/userContext';
+import SimpleView from './lib/src/component/simpleView';
 
 const App = () => {
   return (
     <SafeAreaView>
-      <View><Text>Welcome to App</Text></View>
+      <UserProvider>
+        <View><Text>Welcome to App</Text></View>
+        <SimpleView/>
+      </UserProvider>
     </SafeAreaView>
   );
 }
