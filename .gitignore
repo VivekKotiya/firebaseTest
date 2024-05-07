@@ -1,2 +1,112 @@
 node_modules
 /android/app/build
+ios/Pods/Target Support Files/RNScreens/RNScreens.release.xcconfig
+ios/Pods/Target Support Files/RNScreens/RNScreens.debug.xcconfig
+ios/Pods/Target Support Files/RNScreens/RNScreens-prefix.pch
+ios/Pods/Target Support Files/RNScreens/RNScreens-dummy.m
+ios/Pods/Target Support Files/react-native-safe-area-context/react-native-safe-area-context.release.xcconfig
+ios/Pods/Target Support Files/react-native-safe-area-context/react-native-safe-area-context.debug.xcconfig
+ios/Pods/Target Support Files/react-native-safe-area-context/react-native-safe-area-context-prefix.pch
+ios/Pods/Target Support Files/react-native-safe-area-context/react-native-safe-area-context-dummy.m
+ios/Pods/Target Support Files/Pods-firebaseTest-firebaseTestTests/Pods-firebaseTest-firebaseTestTests.release.xcconfig
+ios/Pods/Target Support Files/Pods-firebaseTest-firebaseTestTests/Pods-firebaseTest-firebaseTestTests.debug.xcconfig
+ios/Pods/Target Support Files/Pods-firebaseTest-firebaseTestTests/Pods-firebaseTest-firebaseTestTests-acknowledgements.plist
+ios/Pods/Target Support Files/Pods-firebaseTest-firebaseTestTests/Pods-firebaseTest-firebaseTestTests-acknowledgements.markdown
+ios/Pods/Target Support Files/Pods-firebaseTest/Pods-firebaseTest.release.xcconfig
+ios/Pods/Target Support Files/Pods-firebaseTest/Pods-firebaseTest.debug.xcconfig
+ios/Pods/Target Support Files/Pods-firebaseTest/Pods-firebaseTest-acknowledgements.plist
+ios/Pods/Target Support Files/Pods-firebaseTest/Pods-firebaseTest-acknowledgements.markdown
+ios/Pods/Pods.xcodeproj/xcuserdata/kotdhanj.xcuserdatad/xcschemes/xcschememanagement.plist
+ios/Pods/Pods.xcodeproj/xcuserdata/kotdhanj.xcuserdatad/xcschemes/RNScreens.xcscheme
+ios/Pods/Pods.xcodeproj/xcuserdata/kotdhanj.xcuserdatad/xcschemes/react-native-safe-area-context.xcscheme
+ios/Pods/Pods.xcodeproj/project.pbxproj
+ios/Pods/Local Podspecs/RNScreens.podspec.json
+ios/Pods/Local Podspecs/react-native-safe-area-context.podspec.json
+ios/Pods/Headers/Public/RNScreens/UIWindow+RNScreens.h
+ios/Pods/Headers/Public/RNScreens/UIViewController+RNScreens.h
+ios/Pods/Headers/Public/RNScreens/RNSUIBarButtonItem.h
+ios/Pods/Headers/Public/RNScreens/RNSSearchBar.h
+ios/Pods/Headers/Public/RNScreens/RNSScreenWindowTraits.h
+ios/Pods/Headers/Public/RNScreens/RNSScreenViewEvent.h
+ios/Pods/Headers/Public/RNScreens/RNSScreenStackHeaderSubview.h
+ios/Pods/Headers/Public/RNScreens/RNSScreenStackHeaderConfig.h
+ios/Pods/Headers/Public/RNScreens/RNSScreenStackAnimator.h
+ios/Pods/Headers/Public/RNScreens/RNSScreenStack.h
+ios/Pods/Headers/Public/RNScreens/RNSScreenNavigationContainer.h
+ios/Pods/Headers/Public/RNScreens/RNSScreenContainer.h
+ios/Pods/Headers/Public/RNScreens/RNSScreen.h
+ios/Pods/Headers/Public/RNScreens/RNSHeaderHeightChangeEvent.h
+ios/Pods/Headers/Public/RNScreens/RNSFullWindowOverlay.h
+ios/Pods/Headers/Public/RNScreens/RNSEnums.h
+ios/Pods/Headers/Public/RNScreens/RNSConvert.h
+ios/Pods/Headers/Public/RNScreens/RCTImageComponentView+RNSScreenStackHeaderConfig.h
+ios/Pods/Headers/Public/react-native-safe-area-context/RNCSafeAreaViewMode.h
+ios/Pods/Headers/Public/react-native-safe-area-context/RNCSafeAreaViewManager.h
+ios/Pods/Headers/Public/react-native-safe-area-context/RNCSafeAreaViewLocalData.h
+ios/Pods/Headers/Public/react-native-safe-area-context/RNCSafeAreaViewEdges.h
+ios/Pods/Headers/Public/react-native-safe-area-context/RNCSafeAreaViewEdgeMode.h
+ios/Pods/Headers/Public/react-native-safe-area-context/RNCSafeAreaView.h
+ios/Pods/Headers/Public/react-native-safe-area-context/RNCSafeAreaUtils.h
+ios/Pods/Headers/Public/react-native-safe-area-context/RNCSafeAreaShadowView.h
+ios/Pods/Headers/Public/react-native-safe-area-context/RNCSafeAreaProviderManager.h
+ios/Pods/Headers/Public/react-native-safe-area-context/RNCSafeAreaProvider.h
+ios/Pods/Headers/Public/react-native-safe-area-context/RNCSafeAreaContext.h
+ios/Pods/Headers/Private/RNScreens/UIWindow+RNScreens.h
+ios/Pods/Headers/Private/RNScreens/UIViewController+RNScreens.h
+ios/Pods/Headers/Private/RNScreens/RNSUIBarButtonItem.h
+ios/Pods/Headers/Private/RNScreens/RNSSearchBar.h
+ios/Pods/Headers/Private/RNScreens/RNSScreenWindowTraits.h
+ios/Pods/Headers/Private/RNScreens/RNSScreenViewEvent.h
+ios/Pods/Headers/Private/RNScreens/RNSScreenStackHeaderSubview.h
+ios/Pods/Headers/Private/RNScreens/RNSScreenStackHeaderConfig.h
+ios/Pods/Headers/Private/RNScreens/RNSScreenStackAnimator.h
+ios/Pods/Headers/Private/RNScreens/RNSScreenStack.h
+ios/Pods/Headers/Private/RNScreens/RNSScreenNavigationContainer.h
+ios/Pods/Headers/Private/RNScreens/RNSScreenContainer.h
+ios/Pods/Headers/Private/RNScreens/RNSScreen.h
+ios/Pods/Headers/Private/RNScreens/RNSHeaderHeightChangeEvent.h
+ios/Pods/Headers/Private/RNScreens/RNSFullWindowOverlay.h
+ios/Pods/Headers/Private/RNScreens/RNSEnums.h
+ios/Pods/Headers/Private/RNScreens/RNSConvert.h
+ios/Pods/Headers/Private/RNScreens/RCTImageComponentView+RNSScreenStackHeaderConfig.h
+ios/Pods/Headers/Private/react-native-safe-area-context/RNCSafeAreaViewMode.h
+ios/Pods/Headers/Private/react-native-safe-area-context/RNCSafeAreaViewManager.h
+ios/Pods/Headers/Private/react-native-safe-area-context/RNCSafeAreaViewLocalData.h
+ios/Pods/Headers/Private/react-native-safe-area-context/RNCSafeAreaViewEdges.h
+ios/Pods/Headers/Private/react-native-safe-area-context/RNCSafeAreaViewEdgeMode.h
+ios/Pods/Headers/Private/react-native-safe-area-context/RNCSafeAreaView.h
+ios/Pods/Headers/Private/react-native-safe-area-context/RNCSafeAreaUtils.h
+ios/Pods/Headers/Private/react-native-safe-area-context/RNCSafeAreaShadowView.h
+ios/Pods/Headers/Private/react-native-safe-area-context/RNCSafeAreaProviderManager.h
+ios/Pods/Headers/Private/react-native-safe-area-context/RNCSafeAreaProvider.h
+ios/Pods/Headers/Private/react-native-safe-area-context/RNCSafeAreaContext.h
+ios/Pods/Target Support Files/Pods-firebaseTest-firebaseTestTests/Pods-firebaseTest-firebaseTestTests.release.xcconfig
+ios/Pods/Target Support Files/Pods-firebaseTest-firebaseTestTests/Pods-firebaseTest-firebaseTestTests.debug.xcconfig
+ios/Pods/Target Support Files/Pods-firebaseTest-firebaseTestTests/Pods-firebaseTest-firebaseTestTests-acknowledgements.plist
+ios/Pods/Target Support Files/Pods-firebaseTest-firebaseTestTests/Pods-firebaseTest-firebaseTestTests-acknowledgements.markdown
+ios/Pods/Target Support Files/Pods-firebaseTest/Pods-firebaseTest.release.xcconfig
+ios/Pods/Target Support Files/Pods-firebaseTest/Pods-firebaseTest.debug.xcconfig
+ios/Pods/Target Support Files/Pods-firebaseTest/Pods-firebaseTest-acknowledgements.markdown
+ios/Pods/Pods.xcodeproj/xcuserdata/kotdhanj.xcuserdatad/xcschemes/xcschememanagement.plist
+ios/Pods/Pods.xcodeproj/project.pbxproj
+ios/Pods/Manifest.lock
+ios/firebaseTest.xcodeproj/project.pbxproj
+ios/Pods/Target Support Files/Pods-firebaseTest/Pods-firebaseTest-acknowledgements.plist
+ios/Pods/Target Support Files/Pods-firebaseTest/Pods-firebaseTest.debug.xcconfig
+ios/Pods/Target Support Files/Pods-firebaseTest/Pods-firebaseTest.release.xcconfig
+ios/Pods/Target Support Files/Pods-firebaseTest-firebaseTestTests/Pods-firebaseTest-firebaseTestTests-acknowledgements.markdown
+ios/Pods/Target Support Files/Pods-firebaseTest-firebaseTestTests/Pods-firebaseTest-firebaseTestTests-acknowledgements.plist
+ios/Pods/Target Support Files/Pods-firebaseTest-firebaseTestTests/Pods-firebaseTest-firebaseTestTests.debug.xcconfig
+ios/Pods/Target Support Files/Pods-firebaseTest-firebaseTestTests/Pods-firebaseTest-firebaseTestTests.release.xcconfig
+ios/Pods/Target Support Files/Pods-firebaseTest-firebaseTestTests/Pods-firebaseTest-firebaseTestTests.release.xcconfig
+ios/Pods/Target Support Files/Pods-firebaseTest-firebaseTestTests/Pods-firebaseTest-firebaseTestTests.debug.xcconfig
+ios/Pods/Target Support Files/Pods-firebaseTest-firebaseTestTests/Pods-firebaseTest-firebaseTestTests-acknowledgements.plist
+ios/Pods/Target Support Files/Pods-firebaseTest-firebaseTestTests/Pods-firebaseTest-firebaseTestTests-acknowledgements.markdown
+ios/Pods/Target Support Files/Pods-firebaseTest/Pods-firebaseTest.release.xcconfig
+ios/Pods/Target Support Files/Pods-firebaseTest/Pods-firebaseTest.debug.xcconfig
+ios/Pods/Target Support Files/Pods-firebaseTest/Pods-firebaseTest-acknowledgements.plist
+ios/Pods/Target Support Files/Pods-firebaseTest/Pods-firebaseTest-acknowledgements.markdown
+ios/Pods/Pods.xcodeproj/xcuserdata/kotdhanj.xcuserdatad/xcschemes/xcschememanagement.plist
+ios/Pods/Pods.xcodeproj/project.pbxproj
+ios/Pods/Manifest.lock
+ios/firebaseTest.xcodeproj/project.pbxproj
