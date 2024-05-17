@@ -11,11 +11,13 @@ import {
   Text,
   View,
 } from 'react-native';
+import { FetchDemo } from './lib/src/service/fetch';
 
 const App = () => {
   return (
     <SafeAreaView>
       <View><Text>Welcome to App</Text></View>
+      <FetchDemo />
     </SafeAreaView>
   );
 }
