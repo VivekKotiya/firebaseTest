@@ -11,11 +11,13 @@ import {
   Text,
   View,
 } from 'react-native';
+import CounterView from './lib/src/component/counterView';
 
 const App = () => {
   return (
     <SafeAreaView>
       <View><Text>Welcome to App</Text></View>
+      <CounterView/>
     </SafeAreaView>
   );
 }
