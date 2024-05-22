@@ -12,18 +12,20 @@ import {
   View,
 } from 'react-native';
 import CounterView from './lib/src/component/useReducerComponent';
-import './lib/src/component/redux-toolkit/';
+import './lib/src/store';
 import SongView from './lib/src/component/songView';
 import { Provider } from 'react-redux';
-import store from './lib/src/component/redux-toolkit';
-console.log("store : ", store.getState());
+import { store } from './lib/src/store';
+import MovieView from './lib/src/component/movieView';
+
 const App = () => {
   return (
     <Provider store={store}>
     <SafeAreaView>
       <View><Text>Welcome to App</Text></View>
-      <CounterView/>
+      {/* <CounterView/> */}
       <SongView/>
+      <MovieView/>
     </SafeAreaView>
     </Provider>
   );
