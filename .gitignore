@@ -1,6 +1,7 @@
 node_modules
+android/.gradle
 android/app/build
 android/app/build/*/*/
-ios/pods
+ios/Pods
 ios/build
 coverage/
