@@ -11,12 +11,13 @@ import {
   Text,
   View,
 } from 'react-native';
+import { Provider } from 'react-redux';
 import CounterView from './lib/src/component/useReducerComponent';
 import './lib/src/store';
 import SongView from './lib/src/component/songView';
-import { Provider } from 'react-redux';
 import { store } from './lib/src/store';
 import MovieView from './lib/src/component/movieView';
+import BookView from './lib/src/component/bookView';
 
 const App = () => {
   return (
@@ -26,6 +27,7 @@ const App = () => {
       {/* <CounterView/> */}
       <SongView/>
       <MovieView/>
+      <BookView/>
     </SafeAreaView>
     </Provider>
   );
