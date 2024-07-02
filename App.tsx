@@ -11,11 +11,15 @@ import {
   Text,
   View,
 } from 'react-native';
+import LayoutAnimationView from './lib/src/LayoutAnimationView';
+import AnimatedView from './lib/src/AnimatedView';
 
 const App = () => {
   return (
     <SafeAreaView>
-      <View><Text>Welcome to App</Text></View>
+      <View><Text>Welcome to world of Animation</Text></View>
+      {/* <LayoutAnimationView/> */}
+      <AnimatedView/>
     </SafeAreaView>
   );
 }
